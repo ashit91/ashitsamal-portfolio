@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ashitsamal-portfolio/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/ashitsamal-portfolio/static/js/main.6a8b7ca0.chunk.js",
+    "main.js.map": "/ashitsamal-portfolio/static/js/main.6a8b7ca0.chunk.js.map",
+    "runtime-main.js": "/ashitsamal-portfolio/static/js/runtime-main.a0e5e17b.js",
+    "runtime-main.js.map": "/ashitsamal-portfolio/static/js/runtime-main.a0e5e17b.js.map",
+    "static/js/2.2f825701.chunk.js": "/ashitsamal-portfolio/static/js/2.2f825701.chunk.js",
+    "static/js/2.2f825701.chunk.js.map": "/ashitsamal-portfolio/static/js/2.2f825701.chunk.js.map",
+    "static/js/3.080db0a8.chunk.js": "/ashitsamal-portfolio/static/js/3.080db0a8.chunk.js",
+    "static/js/3.080db0a8.chunk.js.map": "/ashitsamal-portfolio/static/js/3.080db0a8.chunk.js.map",
+    "index.html": "/ashitsamal-portfolio/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/ashitsamal-portfolio/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.2f825701.chunk.js.LICENSE.txt": "/ashitsamal-portfolio/static/js/2.2f825701.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ashitsamal-portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0e5e17b.js",
+    "static/js/2.2f825701.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.6a8b7ca0.chunk.js"
+  ]
+}
