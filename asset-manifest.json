@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ashitsamal-portfolio/static/css/main.4792f7dd.chunk.css",
-    "main.js": "/ashitsamal-portfolio/static/js/main.cebc79c4.chunk.js",
-    "main.js.map": "/ashitsamal-portfolio/static/js/main.cebc79c4.chunk.js.map",
-    "runtime-main.js": "/ashitsamal-portfolio/static/js/runtime-main.529d9382.js",
-    "runtime-main.js.map": "/ashitsamal-portfolio/static/js/runtime-main.529d9382.js.map",
+    "main.css": "/ashitsamal-portfolio/static/css/main.3ddccf01.chunk.css",
+    "main.js": "/ashitsamal-portfolio/static/js/main.6b4b1958.chunk.js",
+    "main.js.map": "/ashitsamal-portfolio/static/js/main.6b4b1958.chunk.js.map",
+    "runtime-main.js": "/ashitsamal-portfolio/static/js/runtime-main.9684fb86.js",
+    "runtime-main.js.map": "/ashitsamal-portfolio/static/js/runtime-main.9684fb86.js.map",
     "static/css/2.0b8ed941.chunk.css": "/ashitsamal-portfolio/static/css/2.0b8ed941.chunk.css",
-    "static/js/2.99be0a6f.chunk.js": "/ashitsamal-portfolio/static/js/2.99be0a6f.chunk.js",
-    "static/js/2.99be0a6f.chunk.js.map": "/ashitsamal-portfolio/static/js/2.99be0a6f.chunk.js.map",
-    "static/js/3.51566d14.chunk.js": "/ashitsamal-portfolio/static/js/3.51566d14.chunk.js",
-    "static/js/3.51566d14.chunk.js.map": "/ashitsamal-portfolio/static/js/3.51566d14.chunk.js.map",
+    "static/js/2.812ac854.chunk.js": "/ashitsamal-portfolio/static/js/2.812ac854.chunk.js",
+    "static/js/2.812ac854.chunk.js.map": "/ashitsamal-portfolio/static/js/2.812ac854.chunk.js.map",
+    "static/js/3.3489aa28.chunk.js": "/ashitsamal-portfolio/static/js/3.3489aa28.chunk.js",
+    "static/js/3.3489aa28.chunk.js.map": "/ashitsamal-portfolio/static/js/3.3489aa28.chunk.js.map",
     "index.html": "/ashitsamal-portfolio/index.html",
     "static/css/2.0b8ed941.chunk.css.map": "/ashitsamal-portfolio/static/css/2.0b8ed941.chunk.css.map",
-    "static/css/main.4792f7dd.chunk.css.map": "/ashitsamal-portfolio/static/css/main.4792f7dd.chunk.css.map",
-    "static/js/2.99be0a6f.chunk.js.LICENSE.txt": "/ashitsamal-portfolio/static/js/2.99be0a6f.chunk.js.LICENSE.txt",
+    "static/css/main.3ddccf01.chunk.css.map": "/ashitsamal-portfolio/static/css/main.3ddccf01.chunk.css.map",
+    "static/js/2.812ac854.chunk.js.LICENSE.txt": "/ashitsamal-portfolio/static/js/2.812ac854.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/ashitsamal-portfolio/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.529d9382.js",
+    "static/js/runtime-main.9684fb86.js",
     "static/css/2.0b8ed941.chunk.css",
-    "static/js/2.99be0a6f.chunk.js",
-    "static/css/main.4792f7dd.chunk.css",
-    "static/js/main.cebc79c4.chunk.js"
+    "static/js/2.812ac854.chunk.js",
+    "static/css/main.3ddccf01.chunk.css",
+    "static/js/main.6b4b1958.chunk.js"
   ]
 }
