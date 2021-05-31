@@ -1,0 +1,26 @@
+{
+    "data": {
+        "navigations": [
+            {
+                "path": "#home",
+                "label": ""
+            },
+            {
+                "path": "#about",
+                "label": "About"
+            },
+            {
+                "path": "#resume",
+                "label": "Resume"
+            },
+            {
+                "path": "#extra-curricular",
+                "label": "Extra Curricular"
+            },
+            {
+                "path": "#contact",
+                "label": "Contact"
+            }
+        ]
+    }
+}
