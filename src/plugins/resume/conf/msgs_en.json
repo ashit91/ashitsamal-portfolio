@@ -1,7 +1,13 @@
 {
-    "data": {
-        "name_designation": {
+    "resume_data": {
+        "left_data": {
+            "name": "Ashit Ranjan Samal",
+            "designation": "Senior Software Engineer"
+        },
+        "right_data": {
+            "summary_text": "Effective team contributor and 6 years experienced as a problem-solver with advanced front-end programming skills. Seeking to apply expertise and extensive experience in software engineering to take on a challenging new role with a growing team."
 
         }
+
     }
 }

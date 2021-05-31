@@ -5,7 +5,7 @@ import Resume from './plugins/resume/js/Resume';
 import styles from'./App.module.scss';
 
 function App() {
-  const [navPath, setNavPath] = useState("");
+  const [navPath, setNavPath] = useState(window.location.hash);
 
   const navigationHandeler = (path) => {
     setNavPath(path);

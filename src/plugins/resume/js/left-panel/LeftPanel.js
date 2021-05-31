@@ -1,16 +1,21 @@
 
 import styles from '../Resume.module.scss';
 
-const LeftPanel = () => {
+const LeftPanel = (props) => {
+    const { textData: leftData } = props;
+
     return (
         <div className={styles.leftPanelContainer}>
             <div className={styles.name}>
-                Ashit Ranjan Samal
+                {leftData.name}
             </div>
             <div className={styles.designation}>
-                Senior Software Engineer
+                {leftData.designation}
             </div>
 
+            <div className={styles.leftSectionsContainer}>
+                
+            </div>
 
         </div>
     );
