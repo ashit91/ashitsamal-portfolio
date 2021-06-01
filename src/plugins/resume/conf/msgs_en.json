@@ -2,7 +2,160 @@
     "resume_data": {
         "left_data": {
             "name": "Ashit Ranjan Samal",
-            "designation": "Senior Software Engineer"
+            "designation": "Senior Software Engineer",
+            "section_data": [
+                {
+                    "heading": "Personal Info",
+                    "type": "none",
+                    "list_data": {
+
+                    }
+                },
+                {
+                    "heading": "Tools and Editors",
+                    "type": "bar",
+                    "list_data": [
+                        {
+                            "label": "VS Code",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "Eclipse",
+                            "level": "Moderate"
+                        }                        
+                    ]
+                },
+                {
+                    "heading": "Technical Skills",
+                    "type": "bar",
+                    "list_data": [
+                        {
+                            "label": "JavaScript (5.6 years)",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "React (10 months)",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "Backbone (4.2 years)",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "Angular 7(6 months)",
+                            "level": "Moderate"
+                        },
+                        {
+                            "label": "jQuery (4.2 years)",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "HTML (6 years)",
+                            "level": "Expert"
+                        },
+                        {
+                            "label": "CSS (5.6 years)",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "jQuery (4.2 years)",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "NetSuite (4.6 years)",
+                            "level": "Expert"
+                        }                     
+                    ]
+                },
+                {
+                    "heading": "Soft Skills",
+                    "type": "bar",
+                    "list_data": [
+                        {
+                            "label": "Leadership",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "Collaboration",
+                            "level": "Expert"
+                        }                        
+                    ]
+                },
+                {
+                    "heading": "Languages",
+                    "type": "bar",
+                    "list_data": [
+                        {
+                            "label": "English",
+                            "level": "Expert"
+                        },
+                        {
+                            "label": "Hindi",
+                            "level": "Advanced"
+                        },
+                        {
+                            "label": "Odia",
+                            "level": "Expert"
+                        },
+                        {
+                            "label": "Bengali",
+                            "level": "Moderate"
+                        }                        
+                    ]
+                },
+                {
+                    "heading": "Interests",
+                    "type": "list",
+                    "list_data": [
+                        {
+                            "label": "Badminton"
+                        },
+                        {
+                            "label": "Chess"
+                        },
+                        {
+                            "label": "Movies"
+                        },
+                        {
+                            "label": "Travelling"
+                        }                        
+                    ]
+                },
+                {
+                    "heading": "Personal Skills",
+                    "type": "list",
+                    "list_data": [
+                        {
+                            "label": "Soft spoken"
+                        },
+                        {
+                            "label": "Hard worker"
+                        },
+                        {
+                            "label": "Adaptable"
+                        },
+                        {
+                            "label": "Good communicator"
+                        },
+                        {
+                            "label": "Target oriented"
+                        }                        
+                    ]
+                },
+                {
+                    "heading": "Personal Project",
+                    "type": "href-list",
+                    "list_data": [
+                        {
+                            "label": "In progress: ",
+                            "link": {
+                                "text": "Link here",
+                                "url": "https://ashit91.github.io/ashitsamal-portfolio"
+                            }
+                        }                      
+                    ]
+                }
+            ]
         },
         "right_data": {
             "summary_text": "Effective team contributor and 6 years experienced as a problem-solver with advanced front-end programming skills. Seeking to apply expertise and extensive experience in software engineering to take on a challenging new role with a growing team."

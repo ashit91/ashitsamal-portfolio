@@ -1,5 +1,6 @@
 
 import styles from '../Resume.module.scss';
+import LeftPanelSection from './LeftPanelSection';
 
 const LeftPanel = (props) => {
     const { textData: leftData } = props;
@@ -14,9 +15,12 @@ const LeftPanel = (props) => {
             </div>
 
             <div className={styles.leftSectionsContainer}>
-                
+                {leftData.section_data.map((sectionInfo, index) => {
+                    return (
+                        <LeftPanelSection key={index} sectionInfo={sectionInfo} />
+                    );
+                })}
             </div>
-
         </div>
     );
 }
