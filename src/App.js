@@ -20,7 +20,7 @@ function App() {
       {/*Routing is not working in gh-pages <Route path="/resume">
         <Resume />
       </Route> */}
-      {(navPath === "#about" || navPath === "#home") && (
+      {(navPath === "" || navPath === "#about" || navPath === "#home") && (
         <About />
       )}
       {navPath === "#resume" && (
