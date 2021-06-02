@@ -17,7 +17,11 @@ const LeftPanel = (props) => {
             <div className={styles.leftSectionsContainer}>
                 {leftData.section_data.map((sectionInfo, index) => {
                     return (
-                        <LeftPanelSection key={index} sectionInfo={sectionInfo} />
+                        <LeftPanelSection key={index} sectionInfo={sectionInfo}>
+                            {sectionInfo.type === "custom" && (
+                                <div>Hi</div>
+                            )}
+                        </LeftPanelSection>
                     );
                 })}
             </div>

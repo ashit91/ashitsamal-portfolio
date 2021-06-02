@@ -1,7 +1,7 @@
 $color_white: #fff;
 $color_black: #000;
 $color_primary: #8e45ae;
-$color_secondary: #174185;
+$color_secondary: #273487;
 $twentyPX_unit: 1.25rem;
 %text_left { text-align: left; }
 %text_center { text-align: center; }
@@ -9,6 +9,8 @@ $twentyPX_unit: 1.25rem;
 
 .resumePageContainer {
     padding: 0 15%;
+    animation: appearSmooth 2s;
+    animation-delay: 1s;
 
     .colorTransition {
         height: $twentyPX_unit * 3.5;
@@ -30,8 +32,6 @@ $twentyPX_unit: 1.25rem;
 .leftPanelContainer {
     background-color: $color_secondary;
     color: $color_white;
-    padding-top: $twentyPX_unit * 1.5;
-    padding-bottom: $twentyPX_unit * 1.5;
 
     .name {
         @extend %text_center;
@@ -45,12 +45,32 @@ $twentyPX_unit: 1.25rem;
         padding: $twentyPX_unit * 0.75 0;
     }
 
-    .leftSectionsContainer {
-        padding-left: $twentyPX_unit;
-        padding-right: $twentyPX_unit;
+    .leftSectionsContainer {        
+        .leftOneSectionContainer {
+            margin-bottom: 0.25 * $twentyPX_unit;
+
+            .leftSectionHeader, .leftSectionBody {
+                padding: 5px $twentyPX_unit;
+            }
+
+            .leftSectionHeader {
+                background-color: #0a1661;
+            }
+            .leftSectionBody {
+                font-size: 0.7 * $twentyPX_unit;
+                ul { padding-inline-start: 1rem; }
+            }
+        }
     }
 }
 
+
+
 .rightPanelContainer {
     @extend %text_left
+}
+
+@keyframes appearSmooth {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

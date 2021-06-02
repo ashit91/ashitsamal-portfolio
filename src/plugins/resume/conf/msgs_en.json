@@ -6,7 +6,7 @@
             "section_data": [
                 {
                     "heading": "Personal Info",
-                    "type": "none",
+                    "type": "custom",
                     "list_data": {
 
                     }
@@ -17,11 +17,13 @@
                     "list_data": [
                         {
                             "label": "VS Code",
-                            "level": "Advanced"
+                            "level": "Advanced",
+                            "proficiency": "72%"
                         },
                         {
                             "label": "Eclipse",
-                            "level": "Moderate"
+                            "level": "Moderate",
+                            "proficiency": "45%"
                         }                        
                     ]
                 },
@@ -31,39 +33,43 @@
                     "list_data": [
                         {
                             "label": "JavaScript (5.6 years)",
-                            "level": "Advanced"
+                            "level": "Advanced",
+                            "proficiency": "75%"
                         },
                         {
                             "label": "React (10 months)",
-                            "level": "Advanced"
+                            "level": "Advanced",
+                            "proficiency": "65%"
                         },
                         {
                             "label": "Backbone (4.2 years)",
-                            "level": "Advanced"
+                            "level": "Expert",
+                            "proficiency": "80%"
                         },
                         {
                             "label": "Angular 7(6 months)",
-                            "level": "Moderate"
+                            "level": "Moderate",
+                            "proficiency": "50%"
                         },
                         {
-                            "label": "jQuery (4.2 years)",
-                            "level": "Advanced"
+                            "label": "jQuery (4.6 years)",
+                            "level": "Expert",
+                            "proficiency": "81%"
                         },
                         {
                             "label": "HTML (6 years)",
-                            "level": "Expert"
+                            "level": "Expert",
+                            "proficiency": "84%"
                         },
                         {
                             "label": "CSS (5.6 years)",
-                            "level": "Advanced"
-                        },
-                        {
-                            "label": "jQuery (4.2 years)",
-                            "level": "Advanced"
+                            "level": "Advanced",
+                            "proficiency": "69%"
                         },
                         {
                             "label": "NetSuite (4.6 years)",
-                            "level": "Expert"
+                            "level": "Expert",
+                            "proficiency": "90%"
                         }                     
                     ]
                 },
@@ -73,11 +79,13 @@
                     "list_data": [
                         {
                             "label": "Leadership",
-                            "level": "Advanced"
+                            "level": "Advanced",
+                            "proficiency": "75%"
                         },
                         {
                             "label": "Collaboration",
-                            "level": "Expert"
+                            "level": "Expert",
+                            "proficiency": "90%"
                         }                        
                     ]
                 },
@@ -87,19 +95,23 @@
                     "list_data": [
                         {
                             "label": "English",
-                            "level": "Expert"
+                            "level": "Expert",
+                            "proficiency": "80%"
                         },
                         {
                             "label": "Hindi",
-                            "level": "Advanced"
+                            "level": "Advanced",
+                            "proficiency": "73%"
                         },
                         {
                             "label": "Odia",
-                            "level": "Expert"
+                            "level": "Expert",
+                            "proficiency": "90%"
                         },
                         {
                             "label": "Bengali",
-                            "level": "Moderate"
+                            "level": "Moderate",
+                            "proficiency": "50%"
                         }                        
                     ]
                 },

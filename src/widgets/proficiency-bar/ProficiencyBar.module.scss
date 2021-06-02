@@ -1,0 +1,30 @@
+
+
+.proficiencyBarContainer {
+    .barBackground {
+        width: 100%;
+        margin: 0.25rem 0;
+        //border: 3px solid #0a1661;
+        border-radius: 0.25rem;
+        background-color: #0a1661;
+
+        .progressBar {
+            border: 3px solid #fff;
+            border-radius: 0.25rem;
+            background-color: #fff;
+            transition: width 3s;
+            animation: progressBar 6s;
+            animation-delay: 1s;
+            animation-duration: 3s;
+        }
+    }
+    .proficiencyLevel {
+        text-align: right;
+        font-size: 0.75rem;
+    }
+}
+
+@keyframes progressBar {
+    from { width: 0; }
+    to { width: auto; }
+}
