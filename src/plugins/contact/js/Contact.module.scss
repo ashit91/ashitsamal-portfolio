@@ -1,0 +1,18 @@
+$color_white: #fff;
+$color_black: #000;
+$color_primary: #8e45ae;
+$color_secondary: #273487;
+$twentyPX_unit: 1.25rem;
+%text_left { text-align: left; }
+%text_center { text-align: center; }
+%font_family_lucida_hand { font-family: 'Lucida Handwriting'; }
+
+.contactContainer {
+    @extend %text_center;
+    animation: appearSmooth 2s;
+}
+
+@keyframes appearSmooth {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
