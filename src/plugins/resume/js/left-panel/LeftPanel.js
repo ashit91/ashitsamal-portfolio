@@ -19,7 +19,16 @@ const LeftPanel = (props) => {
                     return (
                         <LeftPanelSection key={index} sectionInfo={sectionInfo}>
                             {sectionInfo.type === "custom" && (
-                                <div>Hi</div>
+                                <>
+                                    {sectionInfo.list_data.map((list, index) => {
+                                        return (
+                                            <>
+                                                <div className={styles.customLabel}>{list.label}</div>
+                                                <div>{list.value}</div>
+                                            </>                           
+                                        );
+                                    })}
+                                </>
                             )}
                         </LeftPanelSection>
                     );

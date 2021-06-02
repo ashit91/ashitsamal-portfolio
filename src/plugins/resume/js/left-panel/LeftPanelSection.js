@@ -55,7 +55,6 @@ const LeftPanelSection = (props) => {
             )}
         </div>
     );
-
 }
 
 export default LeftPanelSection;

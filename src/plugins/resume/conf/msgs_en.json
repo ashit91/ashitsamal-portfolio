@@ -7,9 +7,24 @@
                 {
                     "heading": "Personal Info",
                     "type": "custom",
-                    "list_data": {
-
-                    }
+                    "list_data": [
+                        {
+                            "label": "Phone:",
+                            "value": "+91-7XXXXXXXX0"
+                        },
+                        {
+                            "label": "Email:",
+                            "value": "ashitsamal91@gmail.com"
+                        },
+                        {
+                            "label": "LinkedIn:",
+                            "value": "www.linkedin.com/in/ashit-ranjan-samal-4a436580/"
+                        },
+                        {
+                            "label": "Address:",
+                            "value": "Hrushikesh Bhavan, 1st Main, 1st Cross, Vagdevi Layout, Munnekollal, Bangalore - 560037, Karnataka, India"
+                        }
+                    ]
                 },
                 {
                     "heading": "Tools and Editors",
@@ -47,7 +62,7 @@
                             "proficiency": "80%"
                         },
                         {
-                            "label": "Angular 7(6 months)",
+                            "label": "Angular 7 (6 months)",
                             "level": "Moderate",
                             "proficiency": "50%"
                         },
@@ -170,8 +185,131 @@
             ]
         },
         "right_data": {
-            "summary_text": "Effective team contributor and 6 years experienced as a problem-solver with advanced front-end programming skills. Seeking to apply expertise and extensive experience in software engineering to take on a challenging new role with a growing team."
-
+            "summary_text": "Effective team contributor and 6 years experienced as a problem-solver with advanced front-end programming skills. Seeking to apply expertise and extensive experience in software engineering to take on a challenging new role with a growing team.",
+            "section_data": [
+                {
+                    "heading": "Work Experience",
+                    "type": "work",
+                    "list_data": [
+                        {
+                            "label": "Endure Software Solutions Pvt Ltd",
+                            "from": "2015 – April",
+                            "to": "2019 – August",
+                            "highlights": [
+                                "Having experience as a UI Developer using JavaScript, jQuery, BackboneJS, CSS, HTML.",
+                                "Learned Angular for a small project.",
+                                "Developing and maintaining eCommerce responsive applications and mobile-first-development using BackboneJS and SuiteCommerce.",
+                                "Proficient in gathering requirements, design implementation, delivery and training.",
+                                "Has experience in waterfall & agile work cultures for software development and release management.",
+                                "Worked on basic SEO integration.",
+                                "Debugged and modified software components in web application.",
+                                "Experience in handling production issues."
+                            ]
+                        },
+                        {
+                            "label": "Altran Technologies (Part of Capgemini):",
+                            "from": "2019 – September",
+                            "to": "Till date.",
+                            "highlights": [
+                                "Learned React to work on new projects.",
+                                "Developing and maintaining network devices responsive applications.",
+                                "Proficient in gathering requirements, design implementation, delivery and training and handling a team.",
+                                "Worked on agile workflow using Jira and git.",
+                                "Debugged and modified software components in web application.",
+                                "Leading a group of 4 UI developers.",
+                                "Generated local build using docker commands and production build using Jenkins tool."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Education",
+                    "type": "basic",
+                    "list_data": [
+                        {
+                            "label": "2008 - 2012",
+                            "value": "B.TECH in Electronics and Communication from Padmanava College of Engineering, Rourkela with7.67 CGPA."
+                        },
+                        {
+                            "label": "2006 - 2008",
+                            "value": "Intermediate (12th) from Jupiter +2 Science College, Bhubaneswar with 70.5%."
+                        },
+                        {
+                            "label": "2006",
+                            "value": "Matriculation (10th) from Government High School, Burla with 76.3%."
+                        }
+                    ]
+                },
+                {
+                    "heading": "Projects",
+                    "type": "project",
+                    "list_data": [
+                        {
+                            "label": "PROJECT #1",
+                            "value": ""
+                        },
+                        {
+                            "label": "Client",
+                            "value": "Multiple clients (Mazda, AstraZeneca, Nestle Nutrition, FritoLay, pFizer)"
+                        },
+                        {
+                            "label": "Team Size",
+                            "value": "3"
+                        },{
+                            "label": "Duration",
+                            "value": "July 2015 - Feb 2018"
+                        },{
+                            "label": "Technologies",
+                            "value": "Netsuite SCA (SuiteCommerce Advanced), BackboneJS, JavaScript, jQuery, CSS, Bootstrap"
+                        },{
+                            "label": "Tools",
+                            "value": "Eclipse, Sublime Text"
+                        },{
+                            "label": "Roles",
+                            "value": "Software Engineer"
+                        },{
+                            "label": "Description",
+                            "value": "It is a web-based online e-commerce application. Netsuite SCA provides a basic ecommerce handy website where new features developed and added according to the client’s requirement.",
+                            "highlights": [
+                                "Add multiple items to cart on click of a single “Add to Cart” button.",
+                                "Role based home page with specific welcome items based on customer roles.",
+                                "Implemented “Favourite Items” list, adding/removing items to/from the list.",
+                                "Sending welcome email templates to new customers.",
+                                "Functionality of multi-shipment i.e. sending one order to multiple shipping addresses (multiple recipients).",
+                                "Filtering and sorting functionality in customer’s address-book having thousands of records."
+                            ]
+                        } 
+                    ]
+                },
+                {
+                    "heading": "Personal Profile",
+                    "type": "basic",
+                    "list_data": [
+                        {
+                            "label": "Date of Birth:",
+                            "value": "3rd May 1991"
+                        },
+                        {
+                            "label": "Gender:",
+                            "value": "Male"
+                        },
+                        {
+                            "label": "Marital status:",
+                            "value": "Single"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Declaration",
+                    "type": "declare",
+                    "list_data": [
+                        {
+                            "declaration": "I hereby confirm that the information provided by me is accurate and true to the best of my knowledge.",
+                            "signature": "Ashit Ranjan Samal"
+                        }
+                    ]
+                }
+            ]
         }
 
     }

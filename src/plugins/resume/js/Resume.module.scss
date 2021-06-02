@@ -14,8 +14,7 @@ $twentyPX_unit: 1.25rem;
     .colorTransition {
         height: $twentyPX_unit * 3.5;
         background-image: linear-gradient($color_primary 30%, $color_white);
-    }
-    
+    }    
     .panelContainer {
         display: grid;
         grid-template-columns: 1fr 3fr;
@@ -38,10 +37,12 @@ $twentyPX_unit: 1.25rem;
         font-size: $twentyPX_unit * 1.5;
         padding: 0 $twentyPX_unit * 1.25;
     }
-
     .designation {
         @extend %text_center;
         padding: $twentyPX_unit * 0.75 0;
+    }
+    .customLabel {
+        padding-top: $twentyPX_unit * 0.75;
     }
 
     .leftSectionsContainer {        
@@ -51,9 +52,9 @@ $twentyPX_unit: 1.25rem;
             .leftSectionHeader, .leftSectionBody {
                 padding: 5px $twentyPX_unit;
             }
-
             .leftSectionHeader {
                 background-color: #0a1661;
+                font-weight: 600;
             }
             .leftSectionBody {
                 font-size: 0.7 * $twentyPX_unit;
@@ -63,10 +64,49 @@ $twentyPX_unit: 1.25rem;
     }
 }
 
-
-
 .rightPanelContainer {
-    @extend %text_left
+    @extend %text_left;
+
+    .headline {
+        padding-bottom: $twentyPX_unit * 0.75;
+    }
+    .rightSectionsContainer {        
+        .rightOneSectionContainer {
+            margin-bottom: 0.25 * $twentyPX_unit;
+
+            .rightSectionHeader, .rightSectionBody {
+                padding: 5px $twentyPX_unit;
+            }
+            .rightSectionHeader {
+                background-color: #E8E8E8;
+                color: $color_secondary;
+                font-weight: 600;
+            }
+            .rightSectionBody {
+                font-size: 0.7 * $twentyPX_unit;
+                margin-top: 0.5 * $twentyPX_unit;
+
+                .companyName {
+                    font-weight: 600;
+                }
+                .signatureText {
+                    text-align: right;
+                    padding-top: 0.5 * $twentyPX_unit;
+                }
+                ul { 
+                    padding-inline-start: $twentyPX_unit; 
+                    li {
+                        line-height: 1.25 * $twentyPX_unit;
+                    }
+                }
+            }
+            .rightPanelGrid {
+                display: grid;
+                grid-template-columns: 1fr 5fr;
+                grid-gap: $twentyPX_unit;
+            }
+        }
+    }
 }
 
 @keyframes appearSmooth {

@@ -1,5 +1,5 @@
-
 import styles from '../Resume.module.scss';
+import RightPanelSection from './RightPanelSection';
 
 const RightPanel = (props) => {
     const { textData: rightData } = props;
@@ -9,7 +9,13 @@ const RightPanel = (props) => {
             <div className={styles.headline}> 
                 {rightData.summary_text}
             </div>
-            <div></div>
+            <div className={styles.rightSectionsContainer}>
+                {rightData.section_data.map((sectionInfo, index) => {
+                    return (
+                        <RightPanelSection key={index} sectionInfo={sectionInfo} />
+                    );
+                })}
+            </div>
         </div>
     );
 }
