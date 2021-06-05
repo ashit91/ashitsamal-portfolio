@@ -6,6 +6,7 @@ $twentyPX_unit: 1.25rem;
 %text_left { text-align: left; }
 %text_center { text-align: center; }
 %font_family_lucida_hand { font-family: 'Lucida Handwriting'; }
+%collapse_down_icon { float: right; margin-top: 2px; }
 
 .resumePageContainer {
     padding: 0 15%;
@@ -55,9 +56,14 @@ $twentyPX_unit: 1.25rem;
             .leftSectionHeader {
                 background-color: #0a1661;
                 font-weight: 600;
+
+                i { @extend %collapse_down_icon; }
+                i.up { animation: rotateUp 1s; margin-top: 0.2rem; }
+                i.down { animation: rotateDown 1s; }
             }
             .leftSectionBody {
-                font-size: 0.7 * $twentyPX_unit;
+                font-size: 0.7 * $twentyPX_unit;                
+                animation: sectionAppear 1s ease-out;
                 ul { padding-inline-start: 1rem; }
             }
         }
@@ -68,7 +74,7 @@ $twentyPX_unit: 1.25rem;
     @extend %text_left;
 
     .headline {
-        padding-bottom: $twentyPX_unit * 0.75;
+        padding: 0 $twentyPX_unit $twentyPX_unit;
     }
     .rightSectionsContainer {        
         .rightOneSectionContainer {
@@ -81,10 +87,15 @@ $twentyPX_unit: 1.25rem;
                 background-color: #E8E8E8;
                 color: $color_secondary;
                 font-weight: 600;
+                
+                i { @extend %collapse_down_icon; }
+                i.fa.fa-chevron-up { animation: rotateUp 1s ease-in; margin-top: 0.2rem; }
+                i.fa.fa-chevron-down { animation: rotateDown 1s ease-in; }
             }
             .rightSectionBody {
                 font-size: 0.7 * $twentyPX_unit;
                 margin-top: 0.5 * $twentyPX_unit;
+                animation: sectionAppear 1s ease-out;
 
                 .companyName {
                     font-weight: 600;
@@ -100,6 +111,7 @@ $twentyPX_unit: 1.25rem;
                     }
                 }
             }
+            .declaration { animation: none; }
             .rightPanelGrid {
                 display: grid;
                 grid-template-columns: 1fr 5fr;
@@ -112,4 +124,19 @@ $twentyPX_unit: 1.25rem;
 @keyframes appearSmooth {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+@keyframes sectionAppear {
+    from { transform: translateY($twentyPX_unit); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes rotateUp {
+    from { transform: rotateX(180deg); }
+    to { transform: rotateX(0deg); }
+}
+
+@keyframes rotateDown {
+    from { transform: rotateX(180deg); }
+    to { transform: rotateX(0deg); }
 }

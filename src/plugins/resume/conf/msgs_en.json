@@ -255,19 +255,24 @@
                         {
                             "label": "Team Size",
                             "value": "3"
-                        },{
+                        },
+                        {
                             "label": "Duration",
                             "value": "July 2015 - Feb 2018"
-                        },{
+                        },
+                        {
                             "label": "Technologies",
                             "value": "Netsuite SCA (SuiteCommerce Advanced), BackboneJS, JavaScript, jQuery, CSS, Bootstrap"
-                        },{
+                        },
+                        {
                             "label": "Tools",
                             "value": "Eclipse, Sublime Text"
-                        },{
+                        },
+                        {
                             "label": "Roles",
                             "value": "Software Engineer"
-                        },{
+                        },
+                        {
                             "label": "Description",
                             "value": "It is a web-based online e-commerce application. Netsuite SCA provides a basic ecommerce handy website where new features developed and added according to the client’s requirement.",
                             "highlights": [
@@ -278,7 +283,7 @@
                                 "Functionality of multi-shipment i.e. sending one order to multiple shipping addresses (multiple recipients).",
                                 "Filtering and sorting functionality in customer’s address-book having thousands of records."
                             ]
-                        } 
+                        }
                     ]
                 },
                 {
