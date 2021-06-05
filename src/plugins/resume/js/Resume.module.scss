@@ -31,6 +31,7 @@ $twentyPX_unit: 1.25rem;
 .leftPanelContainer {
     background-color: $color_secondary;
     color: $color_white;
+    margin-bottom: $twentyPX_unit;
 
     .name {
         @extend %text_center;
@@ -64,7 +65,7 @@ $twentyPX_unit: 1.25rem;
             .leftSectionBody {
                 font-size: 0.7 * $twentyPX_unit;                
                 animation: sectionAppear 1s ease-out;
-                ul { padding-inline-start: 1rem; }
+                ul { padding-inline-start: 1rem; margin: 0.25 * $twentyPX_unit 0; }
             }
         }
     }
@@ -97,15 +98,17 @@ $twentyPX_unit: 1.25rem;
                 margin-top: 0.5 * $twentyPX_unit;
                 animation: sectionAppear 1s ease-out;
 
-                .companyName {
+                .companyName, .projectNum {
                     font-weight: 600;
                 }
+                .projectNum { margin-top: 0.5rem; }
                 .signatureText {
                     text-align: right;
                     padding-top: 0.5 * $twentyPX_unit;
                 }
                 ul { 
-                    padding-inline-start: $twentyPX_unit; 
+                    padding-inline-start: $twentyPX_unit;
+                    margin: 0.25 * $twentyPX_unit 0;
                     li {
                         line-height: 1.25 * $twentyPX_unit;
                     }
@@ -116,6 +119,10 @@ $twentyPX_unit: 1.25rem;
                 display: grid;
                 grid-template-columns: 1fr 5fr;
                 grid-gap: $twentyPX_unit;
+            }
+            .projectGrids {
+                grid-gap: 0.25 * $twentyPX_unit;
+                
             }
         }
     }

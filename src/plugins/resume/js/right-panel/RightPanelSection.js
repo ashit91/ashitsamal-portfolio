@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import OneProject from './OneProject';
 import styles from '../Resume.module.scss';
 
 const RightPanelSection = (props) => {
@@ -23,7 +24,7 @@ const RightPanelSection = (props) => {
                     </>
                 )}
             </div>
-            {!isCollapsed && (
+            {(sectionInfo.type === "declare" || !isCollapsed) && (
                 <>
                     {sectionInfo.type === "work" && (
                         <div className={styles.rightSectionBody + ' ' + styles.rightPanelGrid}>
@@ -57,6 +58,13 @@ const RightPanelSection = (props) => {
                                 );
                             })}
                         </div>
+                    )}                    
+                    {sectionInfo.type === "project" && (
+                        <div className={styles.rightSectionBody + ' ' + styles.rightPanelGrid + ' ' + styles.projectGrids}>
+                            {sectionInfo.list_data.map((list, index) => {
+                                return <OneProject projectData={list.project} key={index} />
+                            })}
+                        </div>
                     )}
                     {sectionInfo.type === "declare" && (
                         <div className={styles.rightSectionBody}>
@@ -68,23 +76,6 @@ const RightPanelSection = (props) => {
                                     </>                           
                                 );
                             })}
-                        </div>
-                    )}
-                    {sectionInfo.type === "href-list" && (
-                        <div className={styles.rightSectionBody + ' ' + styles.rightPanelGrid}>
-                            <ul>
-                                {sectionInfo.list_data.map((list, index) => {
-                                    return (
-                                        <li key={index}>
-                                            {list.link.text ? (
-                                                <>{list.label}<a href={list.link.url}>{list.link.text}</a></>
-                                            ) : (
-                                                <a href={list.link.url}>{list.label}</a>
-                                            )} 
-                                        </li>
-                                    );
-                                })}
-                            </ul>
                         </div>
                     )}
                 </>

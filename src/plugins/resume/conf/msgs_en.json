@@ -244,44 +244,251 @@
                     "heading": "Projects",
                     "type": "project",
                     "list_data": [
-                        {
-                            "label": "PROJECT #1",
-                            "value": ""
+                        { 
+                            "project" : [
+                                {
+                                    "label": "PROJECT #1",
+                                    "value": ""
+                                },
+                                {
+                                    "label": "Client",
+                                    "value": "Multiple clients (Mazda, AstraZeneca, Nestle Nutrition, FritoLay, pFizer)"
+                                },
+                                {
+                                    "label": "Team Size",
+                                    "value": "3"
+                                },
+                                {
+                                    "label": "Duration",
+                                    "value": "July 2015 - Feb 2018"
+                                },
+                                {
+                                    "label": "Technologies",
+                                    "value": "Netsuite SCA (SuiteCommerce Advanced), BackboneJS, JavaScript, jQuery, CSS, Bootstrap"
+                                },
+                                {
+                                    "label": "Tools",
+                                    "value": "Eclipse, Sublime Text"
+                                },
+                                {
+                                    "label": "Roles",
+                                    "value": "Software Engineer"
+                                },
+                                {
+                                    "label": "Description",
+                                    "type": "proj_description",
+                                    "value": "It is a web-based online e-commerce application. Netsuite SCA provides a basic ecommerce handy website where new features developed and added according to the client’s requirement.",
+                                    "highlights": [
+                                        "Add multiple items to cart on click of a single “Add to Cart” button.",
+                                        "Role based home page with specific welcome items based on customer roles.",
+                                        "Implemented “Favourite Items” list, adding/removing items to/from the list.",
+                                        "Sending welcome email templates to new customers.",
+                                        "Functionality of multi-shipment i.e. sending one order to multiple shipping addresses (multiple recipients).",
+                                        "Filtering and sorting functionality in customer’s address-book having thousands of records."
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "label": "Client",
-                            "value": "Multiple clients (Mazda, AstraZeneca, Nestle Nutrition, FritoLay, pFizer)"
+                            "project" : [
+                                {
+                                    "label": "PROJECT #2",
+                                    "value": ""
+                                },
+                                {
+                                    "label": "Client",
+                                    "value": "Sears"
+                                },
+                                {
+                                    "label": "Team Size",
+                                    "value": "2"
+                                },
+                                {
+                                    "label": "Duration",
+                                    "value": "June 2018 - October 2018"
+                                },
+                                {
+                                    "label": "Technologies",
+                                    "value": "JavaScript, BackboneJS, jQuery, Netsuite, Netsuite SCA, Bootstrap"
+                                },
+                                {
+                                    "label": "Tools",
+                                    "value": "Eclipse"
+                                },
+                                {
+                                    "label": "Roles",
+                                    "value": "Senior Software Engineer"
+                                },
+                                {
+                                    "label": "Description",
+                                    "type": "proj_description",
+                                    "value": "It is a large eCommerce application having four stores as hometown, hardware, appliance and outlet. Responsible for complete migration of project from a lower version to higher version of Netsuite SCA with complex implementations."
+                                },
+                                {
+                                    "label": "Website link",
+                                    "value": "http://www.searshometownstores.com/"
+                                }
+                            ]
                         },
                         {
-                            "label": "Team Size",
-                            "value": "3"
+                            "project" : [
+                                {
+                                    "label": "PROJECT #3",
+                                    "value": ""
+                                },
+                                {
+                                    "label": "Client",
+                                    "value": "GAPAC"
+                                },
+                                {
+                                    "label": "Team Size",
+                                    "value": "1"
+                                },
+                                {
+                                    "label": "Duration",
+                                    "value": "November 2018 -May 2019"
+                                },
+                                {
+                                    "label": "Technologies",
+                                    "value": "Netsuite SCA, BackboneJS, JavaScript, jQuery, CSS, Bootstrap, Angular 7"
+                                },
+                                {
+                                    "label": "Tools",
+                                    "value": "Eclipse"
+                                },
+                                {
+                                    "label": "Roles",
+                                    "value": "Senior Software Engineer"
+                                },
+                                {
+                                    "label": "Description",
+                                    "type": "proj_description",
+                                    "value": "It is a luxury body care and home ambience website.",
+                                    "highlights": [
+                                        "Tracking integrations done for GoogleTagManager, CJTracking, AgilOne and Extole."
+                                    ]
+                                },
+                                {
+                                    "label": "Website link",
+                                    "value": "https://www.copperandcrane.com/"
+                                }
+                            ]
                         },
                         {
-                            "label": "Duration",
-                            "value": "July 2015 - Feb 2018"
+                            "project" : [
+                                {
+                                    "label": "PROJECT #4",
+                                    "value": ""
+                                },
+                                {
+                                    "label": "Client",
+                                    "value": "Booking Holiday"
+                                },
+                                {
+                                    "label": "Team Size",
+                                    "value": "1"
+                                },
+                                {
+                                    "label": "Duration",
+                                    "value": "June 2019–August 2019"
+                                },
+                                {
+                                    "label": "Technologies",
+                                    "value": "Angular 7, TypeScript, CSS, Bootstrap"
+                                },
+                                {
+                                    "label": "Tools",
+                                    "value": "Visual Studio Code"
+                                },
+                                {
+                                    "label": "Roles",
+                                    "value": "Senior Software Engineer"
+                                },
+                                {
+                                    "label": "Description",
+                                    "type": "proj_description",
+                                    "value": "It is basically focused on various Holiday/Visa/Flights requirements, booking fixed departure holidays with low price, instant confirmation etc. Booking flights online for different agents, corporate and customers."
+                                }
+                            ]
                         },
                         {
-                            "label": "Technologies",
-                            "value": "Netsuite SCA (SuiteCommerce Advanced), BackboneJS, JavaScript, jQuery, CSS, Bootstrap"
+                            "project" : [
+                                {
+                                    "label": "PROJECT #5",
+                                    "value": ""
+                                },
+                                {
+                                    "label": "Client",
+                                    "value": "Juniper (Project: JWeb)"
+                                },
+                                {
+                                    "label": "Team Size",
+                                    "value": "9"
+                                },
+                                {
+                                    "label": "Duration",
+                                    "value": "October 2019 – August 2020"
+                                },
+                                {
+                                    "label": "Technologies",
+                                    "value": "Javascript, Backbone JS, ExtJS, CSS, jQuery"
+                                },
+                                {
+                                    "label": "Tools",
+                                    "value": "Notepad ++"
+                                },
+                                {
+                                    "label": "Roles",
+                                    "value": "Senior Software Engineer"
+                                },
+                                {
+                                    "label": "Description",
+                                    "type": "proj_description",
+                                    "highlights": [
+                                        "Project is related to maintenance of a router device, where you can configure numerous of security rules, policies and organization related data to make the network more secure.",
+                                        "Also development of old extJS pages with BackboneJS."
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "label": "Tools",
-                            "value": "Eclipse, Sublime Text"
-                        },
-                        {
-                            "label": "Roles",
-                            "value": "Software Engineer"
-                        },
-                        {
-                            "label": "Description",
-                            "value": "It is a web-based online e-commerce application. Netsuite SCA provides a basic ecommerce handy website where new features developed and added according to the client’s requirement.",
-                            "highlights": [
-                                "Add multiple items to cart on click of a single “Add to Cart” button.",
-                                "Role based home page with specific welcome items based on customer roles.",
-                                "Implemented “Favourite Items” list, adding/removing items to/from the list.",
-                                "Sending welcome email templates to new customers.",
-                                "Functionality of multi-shipment i.e. sending one order to multiple shipping addresses (multiple recipients).",
-                                "Filtering and sorting functionality in customer’s address-book having thousands of records."
+                            "project" : [
+                                {
+                                    "label": "PROJECT #6",
+                                    "value": ""
+                                },
+                                {
+                                    "label": "Client",
+                                    "value": "Juniper (Project: StormBreaker)"
+                                },
+                                {
+                                    "label": "Team Size",
+                                    "value": "5"
+                                },
+                                {
+                                    "label": "Duration",
+                                    "value": "September 2020 - Till date"
+                                },
+                                {
+                                    "label": "Technologies",
+                                    "value": "React JS, TypeScript, Less, Bazel, Docker, Helm, Jenkins"
+                                },
+                                {
+                                    "label": "Tools",
+                                    "value": "Visual Studio Code"
+                                },
+                                {
+                                    "label": "Roles",
+                                    "value": "Senior Software Engineer"
+                                },
+                                {
+                                    "label": "Description",
+                                    "type": "proj_description",
+                                    "highlights": [
+                                        "As a part of this project, we allowed an organization to have few licenses and associate them to its devices.",
+                                        "It can onboard all of its bought network devices and manage its rules, policies and organization related device data."
+                                    ]
+                                }
                             ]
                         }
                     ]
